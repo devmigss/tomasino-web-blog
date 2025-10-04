@@ -4,29 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webino Blogs</title>
+    <link href="/assets/css/output.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Webino Blogs</h1>
-            <a href="/pages/reports.html">Reports</a>
-            <a href="/pages/blogs.html">Blogs</a>
-            <a href="/pages/sports.html">Sports</a>
+        <nav class="bg-carbon text-white px-20 py-7 flex flex-row md:justify-between items-center justify-center relative">
+            <div class="hidden md:block">
+                <h1 class="hidden md:block font-IBM font-bold text-2xl">Webino Blogs</h1>
+            </div>
+            <div class="hidden md:flex flex-row gap-10 font-IBM font-semibold text-sm">
+                <a href="/pages/reports.html" class="hidden md:inline">REPORTS</a>
+                <a href="/pages/blogs.html" class="hidden md:inline">BLOGS</a>
+                <a href="/pages/sports.html" class="hidden md:inline">SPORTS</a>
+            </div>
+
+            <!-- Navbar for Smaller Screen Sizes -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6.5 h-auto md:hidden absolute left-7 fill-white" viewBox="0 0 448 512">
+                    <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 
+                            0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 
+                            32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 
+                            32-32H416c17.7 0 32 14.3 32 32z"/></svg>      
+                <h1 class="md:hidden text-3xl font-IBM font-bold">WB</h1>
+                <a href="/pages/reports.html" class="hidden">REPORTS</a>
+                <a href="/pages/blogs.html" class="hidden">BLOGS</a>
+                <a href="/pages/sports.html" class="hidden">SPORTS</a>
         </nav>
-        <div>
-            <img src="/assets/images/Sports/[1] Tiger Spikers jolt Blue Eagles for V-League top seat.png"/>
-            <h1>Tiger Spikers jolt Blue Eagles for V-League</h1>
-            <h2>SPORTS - The Tiger Spikers now hold a 5-1 win-loss card while the Blue Eagles dropped to 4-1 as the V-League semi-finals</h2>
-            <img src="/assets/icons/calendar-regular.svg">
-            <h3>September 10, 2023</h3>
+        <div class="py-15 px-10">
+            <div class="relative">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent rounded-2xl"></div>
+                    <img src="/assets/images/Sports/[1] Tiger Spikers jolt Blue Eagles for V-League top seat.png.png" class="rounded-2xl"/>
+                    <div class="">
+                    <h1 class="text-white">Tiger Spikers jolt Blue Eagles for V-League</h1>
+                    <h2 class="">SPORTS - The Tiger Spikers now hold a 5-1 win-loss card while the Blue Eagles dropped to 4-1 as the V-League semi-finals</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6.5" viewBox="0 0 448 512">
+                        <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 
+                        0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 
+                        8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/></svg>
+                    <h3 class="">September 10, 2023</h3>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-        <h1>Latest</h1>
-        <img src="/assets/images/Sports/[2] Ang Liga UST settles for another draw versus UP.png>">
-        <h2>SPORTS</h2>
-        <h2>• September 09, 2023</h2>
-        <h3>Ang Liga: UST settles for another draw</h3>
+        <section>
+            <div>
+                <h1>Latest</h1>
+                <img src="/assets/images/Sports/[2] Ang Liga UST settles for another draw versus UP.png">
+                <h2 class="inline border">SPORTS</h2><span> • September 09, 2023</span>
+                <h3>Ang Liga: UST settles for another draw</h3>
+            </div>
+            <div>
+                <img src="/assets/images/Sports/[3] EJ Obiena bounces back takes top podium of ISTAF Berlin.png">
+                <h2 class="border inline">SPORTS</h2><span> • September 04, 2023</span>
+                <h3>EJ Obiena bounces back; takes top podium of ISTAF Berlin</h3>
+            </div>
+            <div>
+                <img src="/assets/images/Sports/[4] Josh Ybañez’s monster game lifts UST past FEU for fourth V-League win.png">
+                <h2 class="border inline">SPORTS</h2><span> • September 03, 2023</span>
+                <h3>Josh Ybañez’s monster game lifts UST past FEU for fourth V-League win</h3>
+            </div>
+            <div>
+                <img src="/assets/images/Blogs/[1] Ang Agosto 2023 ay isang mabatong daan.png">
+                <h2 class="border inline">BLOGS</h2><span> • August 31, 2023</span>
+                <h3>Ang Agosto 3023 ay isang mabatong daan</h3>
+            </div>
+        </section>
+        <section>
+            <div>
+                <img src="/assets/images/Reports/[2] Tomasino pasok sa top 10 ng kauna-unahang food tech boards.png">
+                <h2 class="border inline">REPORTS</h2><span> • August 16, 2023</span>
+                <h3>Tomasino pasok sa top 10 ng kauna-unahang food tech boards</h3>
+                <p>Mula sa 40 na mga estudyanteng nanguna sa FTLE 2023, tanging sina Caumban at isang alumna mula sa Xavier University ang pasok sa listahan na hindi nagmula sa Unibersidad ng Pilipinas.</p>
+            </div>
+            <div>
+                 <img src="/assets/images/Reports/[2] Tomasino pasok sa top 10 ng kauna-unahang food tech boards.png">
+                <h2 class="border inline">REPORTS</h2><span> • August 06, 2023</span>
+                <h3>Tiongco: ‘Maging totoo sa sarili, mamayagpag’</h3>
+                <p>ICYMI: Ayon kay Tiongco, hindi kailangang itago ang totoong sarili upang mapabilang sa paaralan dahil ang pagiging totoo pati na rin ang pagtitiwala ang bubuo ng makabuluhang koneksyon sa buhay.</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1>More Articles</h1>
+                <img src="/assets/images/Reports/[1] Mga Tomasino humakot ng pwesto sa August 2023 MTLE UST itinanghal na fifth top-performing school.png">
+                <h2 class="border inline">REPORTS</h2><span>• August 21, 2023</span>
+                <h3>Mga Tomasino humakot ng pwesto sa August 2023 MTLE; UST itinanghal na fifth top-performing school</h3>
+            </div>
+            <div>
+                <img src="/assets/images/Blogs/[2] Liham para sa isang batang Tomasino.png">
+                <h2 class="border inline">BLOGS</h2><span> • August 17, 2023</span>
+                <h3>Liham para sa isang batang Tomasino</h3>
+            </div>
+            <div>
+                <img src="/assets/images/Sports/[4] Josh Ybañez’s monster game lifts UST past FEU for fourth V-League win.png">
+                <h2 class="border inline">BLOGS</h2><span> • August 13, 2023</span>
+                <h3>Yakapin ang bawat sandali, Tomasino!: Mga payo para sa unang taon sa kolehiyo</h3>
+            </div>
+            <div>
+                <img src="/assets/images/Blogs/[1] Ang Agosto 2023 ay isang mabatong daan.png">
+                <h2 class="border inline">BLOGS</h2><span> • July 31, 2023</span>
+                <h3>‘Barbie’ celebrates and criticizes the complexities of womanhood</h3>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div>
+            <h3>© Webino Blogs 2023</h3>
+        </div>
+        <div>
+            <img src="/assets/icons/facebook.svg">
+            <img src="/assets/icons/x-twitter.svg">
+            <img src="/assets/icons/instagram.svg">
+        </div>
+    </footer>
 </body>
 </html>
