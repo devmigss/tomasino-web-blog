@@ -21,4 +21,19 @@
 @theme {
     --font-IBM: "IBM Plex Sans", sans-serif;
     --color-carbon: #191A1C;
+    --color-slategray: #787F87;
+    --color-gunmetal: #3B4046;
+    --color-lightcopper: #DD8E54;
+    --color-pastelviolet: #AD8EBF;
+    --color-dustyrose: #BB7082;
+    --color-lightgray: #D9D9D9;
+}
+
+#menu-icon, #close-icon {
+    transition: all 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+#menu-icon:hover, #close-icon:hover {
+    transform: scale(1.1);
 }

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link href="/assets/css/output.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="bg-carbon text-white px-10 py-7 xl:px-30 flex flex-row xl:justify-between items-center justify-center relative">
+            <div class="hidden md:block">
+                <a href="/pages/index.html"><h1 class="hidden xl:block font-IBM font-bold text-3xl">Webino Blogs</h1></a>
+            </div>
+            <div class="hidden md:flex flex-row gap-15 font-IBM font-semibold text-sm">
+                <a href="/pages/reports.html"
+                class="hidden xl:inline text-[17px] relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-current after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-300 after:ease-in-out">
+                REPORTS
+                </a>
+
+                <a href="/pages/blogs.html"
+                class="hidden xl:inline text-[17px] relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-current after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-300 after:ease-in-out">
+                BLOGS
+                </a>
+
+                <a href="/pages/sports.html"
+                class="hidden xl:inline text-[17px] relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-current after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-300 after:ease-in-out">
+                SPORTS
+                </a>
+            </div>
+            <div class="xl:hidden">
+            <!-- Mobile Navigation -->
+                <button id="menu-btn" class="absolute left-10 focus:outline-none">
+                    <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-auto fill-white" viewBox="0 0 448 512">
+                        <!-- Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 
+                                0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 
+                                32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 
+                                32-32H416c17.7 0 32 14.3 32 32z"/>
+                    </svg>
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="w-5 h-auto fill-white hidden" viewBox="0 0 384 512">
+                        <!-- Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                    </svg>
+                </button>
+                <h1 class="xl:hidden text-[21px] font-IBM font-bold">WB</h1>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="xl:hidden bg-carbon text-white absolute top-full left-0 w-full max-h-0 overflow-hidden transition-all duration-300 ease-in-out z-10">
+                <div class="px-10 py-4">
+                    <a href="/pages/reports.html" class="block py-3 text-center font-IBM font-semibold text-[17px]"><span class="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-current after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-300 after:ease-in-out">REPORTS</span></a>
+                    <a href="/pages/blogs.html" class="block py-3 text-center font-IBM font-semibold text-[17px]"><span class="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-current after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-300 after:ease-in-out">BLOGS</span></a>
+                    <a href="/pages/sports.html" class="block py-3 text-center font-IBM font-semibold text-[17px]"><span class="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-current after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-300 after:ease-in-out">SPORTS</span></a>
+                </div>
+            </div>
+        </nav>
+        <div class="bg-dustyrose">
+            <div class="px-10 pt-30 pb-20 xl:px-30 text-carbon font-IBM xl:w-240">
+                <h2 class="mb-2 text-[36px] font-bold">Sports</h2>
+                <p class="xl:text-[22px]">
+                    From game-changing plays to inspiring athlete profiles, we've got your front-row seat to the exciting realm of sports.
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="px-10 xl:px-30 font-IBM text-carbon py-10">
+            <div class="gap-10 xl:gap-23 flex flex-col py-15">
+                <a href="/pages/article.html" class="group block xl:flex xl:flex-row w-full xl:items-center">
+                    <div class="relative w-full xl:w-[500px] h-[180px] md:h-[300px] xl:h-[300px] flex-shrink-0">
+                        <img src="/assets/images/Sports/[1] Tiger Spikers jolt Blue Eagles for V-League top seat.png.png"
+                        class="w-full h-full object-cover object-center rounded-[10px] group-hover:rounded-[15px] transition-all duration-300 ease-in-out" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out rounded-[15px]"></div>
+                    </div>
+
+                    <div class="xl:ml-10 mt-3 xl:mt-0 text-[8px] md:text-[10px] xl:text-[12px] w-full">
+                        <h2 class="border-1 font-semibold rounded-[5px] px-2.5 py-1 inline-block mb-3 mr-2">SPORTS</h2>
+                        <span class="mr-1"> • </span><h2 class="inline">September 10, 2023</h2>
+                        <h3 class="line-clamp-2 group-hover:text-slategray transition duration-300 ease-in-out mb-2 text-[16px] xl:text-[32px] font-bold">
+                            Tiger Spikers jolt Blue Eagles for V-League top seat
+                        </h3>
+                        <p class="line-clamp-2 xl:text-[16px]">
+                            The Tiger Spikers now hold a 5-1 win-loss card while the Blue Eagles dropped to 4-1 as the V-League semi-finals nears.
+                        </p>
+                    </div>
+                </a>
+                <a href="/pages/article.html" class="group block xl:flex xl:flex-row w-full xl:items-center">
+                    <div class="relative w-full xl:w-[500px] h-[180px] md:h-[300px] xl:h-[300px] flex-shrink-0">
+                        <img src="/assets/images/Sports/[2] Ang Liga UST settles for another draw versus UP.png"
+                        class="w-full h-full object-cover object-center rounded-[10px] group-hover:rounded-[15px] transition-all duration-300 ease-in-out" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out rounded-[15px]"></div>
+                    </div>
+
+                    <div class="xl:ml-10 mt-3 xl:mt-0 text-[8px] md:text-[10px] xl:text-[12px] w-full">
+                        <h2 class="border-1 font-semibold rounded-[5px] px-2.5 py-1 inline-block mb-3 mr-2">SPORTS</h2>
+                        <span class="mr-1"> • </span><h2 class="inline">September 09, 2023</h2>
+                        <h3 class="line-clamp-2 group-hover:text-slategray transition duration-300 ease-in-out mb-2 text-[15px] xl:text-[32px] font-bold">
+                            Ang Liga: UST settles for another draw versus UP
+                        </h3>
+                        <p class="line-clamp-2 xl:text-[16px]">
+                            Golden Booters’ veteran winger Chris Valderama answered back and scored the lone goal for UST right before halftime.
+                        </p>
+                    </div>
+                </a>
+                <a href="/pages/article.html" class="group block xl:flex xl:flex-row w-full xl:items-center">
+                    <div class="relative w-full xl:w-[500px] h-[180px] md:h-[300px] xl:h-[300px] flex-shrink-0">
+                        <img src="/assets/images/Sports/[3] EJ Obiena bounces back takes top podium of ISTAF Berlin.png"
+                        class="w-full h-full object-cover object-center rounded-[10px] group-hover:rounded-[15px] transition-all duration-300 ease-in-out" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out rounded-[15px]"></div>
+                    </div>
+
+                    <div class="xl:ml-10 mt-3 xl:mt-0 text-[8px] md:text-[10px] xl:text-[12px] w-full">
+                        <h2 class="border-1 font-semibold rounded-[5px] px-2.5 py-1 inline-block mb-3 mr-2">SPORTS</h2>
+                        <span class="mr-1"> • </span><h2 class="inline">September 04, 2023</h2>
+                        <h3 class="line-clamp-2 group-hover:text-slategray transition duration-300 ease-in-out mb-2 text-[15px] xl:text-[32px] font-bold">
+                            EJ Obiena bounces back; takes top podium of ISTAF Berlin
+                        </h3>
+                        <p class="line-clamp-2 xl:text-[16px]">
+                            Following a last-spot finish of 5.60m in the recent Wanda Diamond League in Zurich, Switzerland on Thursday (Friday in Manila), the Thomasian alumnus rebounded big time with a 5.92m clear in three attempts to claim the top spot of the outdoor tournament.
+                        </p>
+                    </div>
+                </a>
+                <a href="/pages/article.html" class="group block xl:flex xl:flex-row w-full xl:items-center">
+                    <div class="relative w-full xl:w-[500px] h-[180px] md:h-[300px] xl:h-[300px] flex-shrink-0">
+                        <img src="/assets/images/Sports/[4] Josh Ybañez’s monster game lifts UST past FEU for fourth V-League win.png"
+                        class="w-full h-full object-cover object-center rounded-[10px] group-hover:rounded-[15px] transition-all duration-300 ease-in-out" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out rounded-[15px]"></div>
+                    </div>
+
+                    <div class="xl:ml-10 mt-3 xl:mt-0 text-[8px] md:text-[10px] xl:text-[12px] w-full">
+                        <h2 class="border-1 font-semibold rounded-[5px] px-2.5 py-1 inline-block mb-3 mr-2">SPORTS</h2>
+                        <span class="mr-1"> • </span><h2 class="inline">August 08, 2023</h2>
+                        <h3 class="line-clamp-2 group-hover:text-slategray transition duration-300 ease-in-out mb-2 text-[15px] xl:text-[32px] font-bold">
+                            Josh Ybañez’s monster game lifts UST past FEU for fourth V-League win
+                        </h3>
+                        <p class="line-clamp-2 xl:text-[16px]">
+                            Ybañez was virtually unstoppable in the match, posting 33 points off 29 attacks, three blocks, and one ace, punctuated by a cross-court hit that sealed the win and a semi-final berth for UST.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="text-white fill-white bg-carbon px-10 py-5 xl:px-30 xl:flex xl:flex-row xl:justify-between">
+        <div class="flex flex-row justify-center">
+            <h3 class="font-IBM text-[12px] xl:text-[16px] mb-1">© Webino Blogs 2023</h3>
+        </div>
+        <div class="flex flex-row gap-3 xl:gap-10 justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 xl:w-6 h-auto">
+                <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48
+                 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38
+                 504 379.78 504 256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 xl:w-6 h-auto">
+                <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4
+                 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 xl:w-6 h-auto">
+                <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1
+                 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8
+                 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4
+                 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58
+                 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7
+                 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+            </svg>
+        </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
